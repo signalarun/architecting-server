@@ -3,7 +3,7 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
 
 
 ## Service Level Agreement
- ![SLA chart](/resources/SLA chart.png)
+ ![SLA chart](../resources/SLA%20chart.png)
 ## Issues
 * c10k problem
 
