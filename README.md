@@ -17,6 +17,7 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
    - Compressing response from upstream
 ## Issues
 * c10k problem
+* Single point failure
 
 ## Servers
  * Nginx
