@@ -4,6 +4,11 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
 
 ## Service Level Agreement
  ![SLA chart](./resources/SLA%20chart.png)
+ 
+## Functionalities
+ * SSL termination
+ * Load balancing
+ * Extend monitoring and logging
 ## Issues
 * c10k problem
 
