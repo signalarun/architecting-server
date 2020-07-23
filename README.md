@@ -9,6 +9,12 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
  * SSL termination
  * Load balancing
  * Extend monitoring and logging
+ * Decoupling Web application server from frontend server ie shifting actitivies like managing incoming traffic to frontend server
+   - SSL termination
+   - Efficient handling of static files
+   - Rate, request and connection limiting
+   - Caching response from upstream
+   - Compressing response from upstream
 ## Issues
 * c10k problem
 
