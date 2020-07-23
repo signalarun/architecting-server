@@ -25,4 +25,5 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
     rich feature set, simple configuration, and low resource consumption.You can consider Nginx as event-based reverse proxy server.
  * Node.js
  * Apache
+ * Django framework
 
