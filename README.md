@@ -1,3 +1,5 @@
+"The difference between a good designer and a great designer is the ability to not only solve the problem, but also to articulate how the design solves it in a way that is compelling and fosters agreement. If you can do that, you’re a great designer." - Articulating Design decisions
+
 # architecting-server
 Notes on server architecture focusing on ASR - Scalability, Performance and Security
 
