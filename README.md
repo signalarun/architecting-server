@@ -34,4 +34,7 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
  * Node.js
  * Apache
  * Django framework
+ 
+ ## Persistance
+ * [NOSQL data modeling techniques](https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/)
 
