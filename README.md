@@ -19,9 +19,10 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
 ## Key concepts
  * Cookie
     According to https://web.archive.org/web/20070805052634/http://wp.netscape.com/newsref/std/cookie_spec.html, "Cookies are a general mechanism which server side connections (such as CGI scripts) can use to both store and retrieve information on the client side of the connection. The addition of a simple, persistent, client-side state significantly extends the capabilities of Web-based client/server applications. A server, when returning an HTTP object to a client, may also send a piece of state information which the client will store. Included in that state object is a description of the range of URLs for which that state is valid. Any future HTTP requests made by the client which fall in that range will include a transmittal of the current value of the state object from the client back to the server. The state object is called a cookie, for no compelling reason."
-    - httpOnly prevents browser JavaScript from accessing cookies.
-    - secure ensures cookies are only used over HTTPS
-    - ephemeral deletes the cookie when the browser is closed. Ephemeral cookies are particularly important if you your app lends itself to use on public computers
+    - Options
+      - httpOnly prevents browser JavaScript from accessing cookies.
+      - secure ensures cookies are only used over HTTPS
+      - ephemeral deletes the cookie when the browser is closed. Ephemeral cookies are particularly important if you your app lends itself to use on public computers
 
 ## Service Level Agreement
  ![SLA chart](./resources/SLA%20chart.png)
