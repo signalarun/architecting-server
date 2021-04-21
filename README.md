@@ -27,6 +27,12 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
 ## Service Level Agreement
  ![SLA chart](./resources/SLA%20chart.png)
  
+## Resilence engineering
+ * Failures
+   - Network failure
+   - Disk failure
+   - CPU/memory failure
+ 
 ## Issues
 * c10k problem
 * Single point failure
