@@ -28,7 +28,11 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
  ![SLA chart](./resources/SLA%20chart.png)
  
 ## Resilence engineering
- * Failures
+ * Gracefull degradation
+   - Identify core functionalities and avoid its failure or fail with notification
+   - Non core functionalities if failed affects UX the least
+   
+ * Failures to simulate
    - Network failure
    - Disk failure
    - CPU/memory failure
