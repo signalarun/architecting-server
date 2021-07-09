@@ -2,7 +2,7 @@
 
 The NIST has claimed, based on a study of popular web applications, that “The cost of removing an application security vulnerability during the design phase ranges from 30–60 times less than if removed during production.” - Web Application Security by Andrew Hoffman
 
-# architecting-server
+# Architecting server
 Notes on server architecture focusing on ASR - Scalability, Performance and Security
 
 ## Functionalities
