@@ -36,7 +36,13 @@ Notes on server architecture focusing on ASR - Scalability, Performance and Secu
    - Network failure
    - Disk failure
    - CPU/memory failure
- 
+## Usability
+ * Measuring usability
+   - Speed
+   - Efficiency
+   - Learnability
+   - Memorability
+   - User Preference 
 ## Issues
 * c10k problem
 * Single point failure
